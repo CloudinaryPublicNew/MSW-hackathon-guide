@@ -1,3 +1,7 @@
+---
+description: Milwaukee Startup Week Hackathon Guide
+---
+
 # Milwaukee Startup Week Hackathon Guide
 
 \[Add Logo  / Cover Photo Here\]
