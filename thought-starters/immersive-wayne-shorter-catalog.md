@@ -11,12 +11,12 @@ Engage users with beautiful visualizations of the music audio and video tracks. 
 Contextualize and [visualize](https://cloudinary.gitbook.io/cil-hackathon-guide/~/edit/primary/cloudinary/audio-to-waveform-images) Wayne Shorter’s music using photos, [reviews](http://prod-doc.rovicorp.com/mashery/index.php/Data/music-api/v1.1/song/review), a [timeline](https://github.com/luyilin/vue-cute-timeline), or [unique visualizations](https://pudding.cool/2017/03/miles/) which pull in [related](https://github.com/guoguo12/billboard-charts) [data](http://prod-doc.rovicorp.com/mashery/index.php/Data/Name-API/V1.1). Let users share their favorite photos or films/music exceprts using social sharing.
 
 {% hint style="success" %}
-BONUS POINTS FOR THIS CHALLENGE 
+BONUS POINTS FOR THIS CHALLENGE
 {% endhint %}
 
 ### Choose a Serverless Stack
 
-Resist the urge to create an Express app from scratch and deploy a server for this one! Instead, focus on extending our[ Blueprint starter application](https://cloudinary.gitbook.io/cil-hackathon-guide/~/edit/primary/thought-starters/immersive-wayne-shorter-catalog)  built on Auth0 extend's FaaS serverless stack.  You'll be able to quickly use our API's example endpoints or extend it further with other APIs.  Then call each API directly within a Single Page App \(SPA\) to take advantage of the responsive design possibilities.
+Resist the urge to create an Express app from scratch and deploy a server for this one! Instead, focus on extending our[ Blueprint starter application](https://cloudinary.gitbook.io/cil-hackathon-guide/~/edit/primary/thought-starters/immersive-wayne-shorter-catalog) built on Auth0 extend's FaaS serverless stack. You'll be able to quickly use our API's example endpoints or extend it further with other APIs. Then call each API directly within a Single Page App \(SPA\) to take advantage of the responsive design possibilities.
 
 Cloudinary's APIs work elegantly with Auth0 [Webtasks](https://webtask.io) and other serverless platforms. We support many languages, including JavaScript and [Node.js](https://cloudinary.com/documentation/node_integration).
 

@@ -64,7 +64,6 @@ waitForjQuery(function() {
     );
   });
 });
-
 ```
 
 ```css

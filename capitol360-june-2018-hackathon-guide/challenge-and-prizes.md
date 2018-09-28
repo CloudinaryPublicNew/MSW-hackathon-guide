@@ -2,12 +2,10 @@
 
 ## Our generous sponsors are offering the following challenges and prizes:
 
-### Grand Prize - Presented by Ujo and Capitol Music Group 
+### Grand Prize - Presented by Ujo and Capitol Music Group
 
 * **First Place**: $2000 cash prize + 5 Ethereum 
 * **Runner-up**: $1000 cash prize
-
-### 
 
 ### Cloudinary **Challenge:**
 
@@ -19,8 +17,6 @@ Build and demonstrate the best use of Cloudinary in your hack to win fun prizes.
 
 * 1-year Cloudinary Plus plan \($1068 value\) to the hack teams chosen for the most creative and the best implementation
 * Distinguished hack projects \(that use Cloudinary\) will be featured on [our Blog](https://cloudinary.com/blog).
-
-
 
 ### LeanSquare Accelerator at Wallifornia MusicTech
 
@@ -39,6 +35,4 @@ Build and demonstrate the best use of Cloudinary in your hack to win fun prizes.
 ### Gener8tor Final Round Interview
 
 * A final round interview to participate in gener8tor’s 12-week Accelerator program with up to $90k in financing
-
-
 

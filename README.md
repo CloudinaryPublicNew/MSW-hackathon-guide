@@ -1,13 +1,13 @@
-# Capitol 360 Innovation Center Hackathon Guide
+# Milwaukee Startup Week Hackathon Guide
 
-![](.gitbook/assets/eventbritehackathonwhackfest.jpg)
+\[Add Logo  / Cover Photo Here\]
 
-**When**: June 2-3  11am Saturday - 6:30pm Sunday  
-**Where**: Capitol Records – 1750 Vine St, Los Angeles, CA 90028
+**When**: \[Event Dates\]  
+**Where**:\[Event Venue Location address\]
 
-Designed to foster innovative ideas and bridge the gap between content creators and the tech community, this 2- day Hackathon will bring together software developers, and acclaimed producers, songwriters, and influencers in a challenge to incubate new waves of music-related products, services, and content.
+\[Event Description\]
 
-All participants will have access to the state-of-the-art Capitol Recording Studios and a catalog of UMG audio streaming tracks.
+\[What challenges will participants be hacking\]
 
 {% hint style="success" %}
 **Check back on this page for access to never before seen footage and archival content!!**
@@ -26,11 +26,11 @@ We're hackers too, so we know your time at the Hackathon is limited. That's why 
 
 ## Sandbox License
 
-Developers will have pre-cleared access to 14k UMG audio streaming tracks. Winners are eligible for an 8-month Innovation License for continued access to our sandbox. 
+Developers will have pre-cleared access to 14k UMG audio streaming tracks. Winners are eligible for an 8-month Innovation License for continued access to our sandbox.
 
 Artists included in this catalog include old and new, and cross genre: **Frank Sinatra, Michael Jackson, Elton John, Diana Ross, Neil Diamond,Imagine Dragons, Halsey, Rihanna, Maroon 5,Hans Zimmer, Andrea Bocelli, John Williams**
 
-**Blue Note:** We will be opening up select assets from our digitized archives to developers, in a challenge to build an immersive catalog experience: 
+**Blue Note:** We will be opening up select assets from our digitized archives to developers, in a challenge to build an immersive catalog experience:
 
 * Tape transfers + tape box scans
 * Production Masters
@@ -40,6 +40,6 @@ Artists included in this catalog include old and new, and cross genre: **Frank S
 * Art flat scans + illustrations
 
 {% hint style="warning" %}
-This Hackathon Guide is a living document which we update frequently with additional info and code examples. It's meant to be a quick start in learning about Cloudinary and how to integrate other APIs featured at this event. Please take a few moments to check out and follow the guide's thought starters links and try our **Blueprint Sample Application:** [**Discover Music** ](https://cloudinary.gitbook.io/cil-hackathon-guide/blueprints/discover-music) **- complete ready to run example app that integrates APIs from Cloudinary, The 7Digital CMG Catalog, Tivo, Microsoft and more!  Feel free to use, modify and extend our blueprint apps for your Hack.**  And, don't forget to check back here often for new content.
+This Hackathon Guide is a living document which we update frequently with additional info and code examples. It's meant to be a quick start in learning about Cloudinary and how to integrate other APIs featured at this event. Please take a few moments to check out and follow the guide's thought starters links and try our **Blueprint Sample Application:** [**Discover Music** ](https://cloudinary.gitbook.io/cil-hackathon-guide/blueprints/discover-music) **- complete ready to run example app that integrates APIs from Cloudinary, The 7Digital CMG Catalog, Tivo, Microsoft and more! Feel free to use, modify and extend our blueprint apps for your Hack.** And, don't forget to check back here often for new content.
 {% endhint %}
 

@@ -18,12 +18,12 @@
 ## **Important Information**
 
 * API Keys 
-  * **`Key = 7d4vr6cgb392`**
-  * **`Secret = m4ntskavq56rddsa`**
+  * `Key = 7d4vr6cgb392`
+  * `Secret = m4ntskavq56rddsa`
 * You need to add the following parameter to all API calls
-  * **`&shopId=2020`**
+  * `&shopId=2020`
 * When calling track and release endpoints, always use parameter
-  * **`&usageTypes=adsupportedstreaming`**
+  * `&usageTypes=adsupportedstreaming`
 * Terminology
   * **Release = Album or Single**
 
@@ -46,8 +46,8 @@
 
 For JSON responses
 
-* **`Add “accept: application/json” to your http header request`**
-* **`curl -H “Accept: application/json” ‘`**[**`http://api.7digital.com…`**](about:blank)**`..’`**
+* `Add “accept: application/json” to your http header request`
+* `curl -H “Accept: application/json” ‘`[`http://api.7digital.com…`](about:blank)`..’`
 
 ## Accessing Album/Single Cover Art
 
@@ -74,9 +74,9 @@ In order to stream a specific track you must specify a 7digital trackId
 
 * 7digital trackId's are returned by the catalog search API endpoints
 
-Documentation on how to build a streaming link can be found here -  [GET /stream/catalogue](http://docs.7digital.com/#_stream_catalogue_get) 
+Documentation on how to build a streaming link can be found here - [GET /stream/catalogue](http://docs.7digital.com/#_stream_catalogue_get)
 
-This is what a typical streaming link looks like - \(note this link does not work\)[**`https://stream.svc.7digital.net/stream/catalogue?&shopId=2020&trackId=20745994&oauth_consumer_key=7d4vr6cgb392&oauth_nonce=302909674&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1520701629&oauth_version=1.0&oauth_signature=gnTthfLuZWAf55MTvOesq25ONlc`**](https://stream.svc.7digital.net/stream/catalogue?&shopId=2020&trackId=20745994%20&oauth_consumer_key=7d4vr6cgb392%20&oauth_nonce=302909674%20&oauth_signature_method=HMAC-SHA1%20&oauth_timestamp=1520701629&oauth_version=1.0%20&oauth_signature=gnTthfLuZWAf55MTvOesq25ONlc%3D)
+This is what a typical streaming link looks like - \(note this link does not work\)[`https://stream.svc.7digital.net/stream/catalogue?&shopId=2020&trackId=20745994&oauth_consumer_key=7d4vr6cgb392&oauth_nonce=302909674&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1520701629&oauth_version=1.0&oauth_signature=gnTthfLuZWAf55MTvOesq25ONlc`](https://stream.svc.7digital.net/stream/catalogue?&shopId=2020&trackId=20745994%20&oauth_consumer_key=7d4vr6cgb392%20&oauth_nonce=302909674%20&oauth_signature_method=HMAC-SHA1%20&oauth_timestamp=1520701629&oauth_version=1.0%20&oauth_signature=gnTthfLuZWAf55MTvOesq25ONlc%3D)
 
 ## Building & Signing Streaming Links
 
@@ -92,5 +92,5 @@ If you want to stream part of a track \(clip\) then you can use the range reques
 
 `curl -v -o partial.mp4 -H "Range:bytes=81920-" "{url to aac stream}"`
 
-Please note - you'll need to calculate the number of bytes that you want to start and/or finish at 
+Please note - you'll need to calculate the number of bytes that you want to start and/or finish at
 

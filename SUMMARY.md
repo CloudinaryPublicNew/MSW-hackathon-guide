@@ -1,14 +1,14 @@
 # Table of contents
 
-* [Capitol 360 Innovation Center Hackathon Guide](README.md)
+* [Milwaukee Startup Week Hackathon Guide](README.md)
 
 ## Capitol360 June 2018 Hackathon Guide
 
-* [Arrival Guide / Parking](capitol360-innovation-center-hackathon-guide/arrival-guide-parking.md)
-* [Challenge and Prizes](capitol360-innovation-center-hackathon-guide/challenge-and-prizes.md)
-* [Participating Sponsors](capitol360-innovation-center-hackathon-guide/participating-sponsors.md)
-* [Hackathon Event Flow](capitol360-innovation-center-hackathon-guide/hackathon-event-flow.md)
-* [Special Guests](capitol360-innovation-center-hackathon-guide/special-guests.md)
+* [Arrival Guide / Parking](capitol360-june-2018-hackathon-guide/arrival-guide-parking.md)
+* [Challenge and Prizes](capitol360-june-2018-hackathon-guide/challenge-and-prizes.md)
+* [Participating Sponsors](capitol360-june-2018-hackathon-guide/participating-sponsors.md)
+* [Hackathon Event Flow](capitol360-june-2018-hackathon-guide/hackathon-event-flow.md)
+* [Special Guests](capitol360-june-2018-hackathon-guide/special-guests.md)
 
 ## Blueprints
 
@@ -47,7 +47,7 @@
 ## Tivo
 
 * [Using TiVo & Lyricfind APIs’](tivo/using-tivo-and-lyricfind-apis.md)
-* [TiVo Playlisting](tivo-playlisting.md)
+* [TiVo Playlisting](tivo/tivo-playlisting.md)
 
 ## ConsenSys
 
