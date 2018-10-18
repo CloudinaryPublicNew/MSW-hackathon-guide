@@ -42,7 +42,9 @@
 
 ## 7Digital
 
-* [Using 7Digital API](7digital/using-7digital-api.md)
+* [Using 7digital API](7digital/using-7digital-api.md)
+* [API Specifics](7digital/api-specifics.md)
+* [Streaming Audio Files](7digital/streaming-audio-files.md)
 
 ## Tivo
 
