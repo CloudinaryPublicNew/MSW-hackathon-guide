@@ -43,7 +43,7 @@ description: Specific details on using the 7digital APIs
 <response status="error" version="1.2"> <error code="1001">  <errorMessage>Missing artist ID</errorMessage> </error></response>
 ```
 
-**​**[**A list of error codes and messages can be found on this page**](https://7digital.gitbook.io/api-doc/api-error-codes-and-messages)​
+\*\*\*\*[**​A list of error codes and messages can be found on this page**​](https://cloudinary.gitbook.io/milwaukee-startup-week-hackathon-guide/7digital/api-error-codes-and-messages)
 
 ## **API Endpoint - Paging** {#api-endpoint-paging}
 
