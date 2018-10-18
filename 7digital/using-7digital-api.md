@@ -31,7 +31,7 @@ description: >-
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LMw7rB6tN87JH_K_qhA%2F-LMwJ5tFgIIrT6EIKcxI%2F-LMwJqfMuRaZCPrkgRcX%2FScreen%20Shot%202018-09-21%20at%2014.30.11.png?alt=media&token=149c79a7-6abb-4b0f-a092-ae80d82e0d0e)
 
-**​List of catalog metadata can be found on this page​**
+\*\*\*\*[**​List of catalog metadata can be found on this page​**](https://cloudinary.gitbook.io/milwaukee-startup-week-hackathon-guide/7digital/catalog-metadata-available)
 
 ## Accessing UMG Catalog using 7digital API {#accessing-umg-catalog-using-7digital-api}
 
