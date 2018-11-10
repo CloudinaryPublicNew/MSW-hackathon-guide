@@ -2,21 +2,12 @@
 
 * [Milwaukee Startup Week Hackathon Guide](README.md)
 
-## Capitol360 June 2018 Hackathon Guide
-
-* [Arrival Guide / Parking](capitol360-june-2018-hackathon-guide/arrival-guide-parking.md)
-* [Challenge and Prizes](capitol360-june-2018-hackathon-guide/challenge-and-prizes.md)
-* [Participating Sponsors](capitol360-june-2018-hackathon-guide/participating-sponsors.md)
-* [Hackathon Event Flow](capitol360-june-2018-hackathon-guide/hackathon-event-flow.md)
-* [Special Guests](capitol360-june-2018-hackathon-guide/special-guests.md)
-
 ## Blueprints
 
 * [Discover Music](blueprints/discover-music.md)
 
 ## Thought Starters
 
-* [UMG Challenges - June'18](thought-starters/umg-challenges.md)
 * [Immersive Wayne Shorter Catalog](thought-starters/immersive-wayne-shorter-catalog.md)
 * [Build an A&R research tool](thought-starters/build-an-a-and-r-research-tool.md)
 * [Multi-User Sing Along](thought-starters/multi-user-sing-along.md)
@@ -48,17 +39,4 @@
 * [Streaming Audio Files](7digital/streaming-audio-files.md)
 * [Catalog Metadata Available](7digital/catalog-metadata-available.md)
 * [API Error Codes & Messages](7digital/api-error-codes-and-messages.md)
-
-## Tivo
-
-* [Using TiVo & Lyricfind APIs’](tivo/using-tivo-and-lyricfind-apis.md)
-* [TiVo Playlisting](tivo/tivo-playlisting.md)
-
-## ConsenSys
-
-* [ConsenSys Hackathon Developer Guide](consensys/consensys-hackathon-developer-guide.md)
-
-## Microsoft
-
-* [Using Microsoft APIs](microsoft/using-microsoft-apis.md)
 
