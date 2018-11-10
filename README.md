@@ -4,15 +4,6 @@ description: Milwaukee Startup Week Hackathon Guide
 
 # Milwaukee Startup Week Hackathon Guide
 
-\[Add Logo  / Cover Photo Here\]
-
-**When**: \[Event Dates\]  
-**Where**:\[Event Venue Location address\]
-
-\[Event Description\]
-
-\[What challenges will participants be hacking\]
-
 {% hint style="success" %}
 **Check back on this page for access to never before seen footage and archival content!!**
 {% endhint %}
