@@ -63,7 +63,7 @@ description: >-
 
 ## API Endpoint List  <a id="api-endpoint-list"></a>
 
-The following table contains a link to our online documentation for each endpoint, and a sample working call for each endpoint. You can use this to help understand how our calls are constructed and what the responses look like
+The following table lists the endpoints that we have made available for this hackathon.  For each endpoint there is a sample call that works and returns real results.  Click on these links to see how each call is constructed and obtain the call responses
 
 <table>
   <thead>
@@ -76,53 +76,69 @@ The following table contains a link to our online documentation for each endpoin
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">​<a href="http://docs.7digital.com/#_artist_browse_get">Artist browse</a>​</td>
+      <td style="text-align:left">​Artist browse​</td>
+      <td style="text-align:left">Browse the catalog for artist names that start with supplied text string</td>
       <td
-      style="text-align:left">Browse the catalog for artist names that start with supplied text string</td>
+      style="text-align:left">​<a href="http://api.7digital.com/1.2/artist/browse?shopId=2020&amp;oauth_consumer_key=7d4vr6cgb392&amp;letter=ki">GET artist/browse</a>​</td>
         <td
-        style="text-align:left">​<a href="http://api.7digital.com/1.2/artist/browse?shopId=2020&amp;oauth_consumer_key=7d4vr6cgb392&amp;letter=ki">GET artist/browse</a>​</td>
-          <td
-          style="text-align:left">letter={text}</td>
+        style="text-align:left">letter={text}</td>
     </tr>
     <tr>
-      <td style="text-align:left">​<a href="http://docs.7digital.com/#_artist_search_get">Artist search</a>​</td>
+      <td style="text-align:left">​Artist search​</td>
+      <td style="text-align:left">Search the catalog for artists that match a supplied text string</td>
       <td
-      style="text-align:left">Search the catalog for artists that match a supplied text string</td>
+      style="text-align:left">​<a href="http://api.7digital.com/1.2/artist/search?shopId=2020&amp;oauth_consumer_key=7d4vr6cgb392&amp;q=john">GET artist/search</a>​</td>
         <td
-        style="text-align:left">​<a href="http://api.7digital.com/1.2/artist/search?shopId=2020&amp;oauth_consumer_key=7d4vr6cgb392&amp;q=john">GET artist/search</a>​</td>
-          <td
-          style="text-align:left">q={text}</td>
+        style="text-align:left">q={text}</td>
     </tr>
     <tr>
-      <td style="text-align:left">​<a href="http://docs.7digital.com/#_artist_releases_get">Artist releases</a>​</td>
-      <td
-      style="text-align:left">Returns a list of streamable releases for a specific artist</td>
-        <td style="text-align:left">​<a href="http://api.7digital.com/1.2/artist/releases?shopId=2020&amp;oauth_consumer_key=7d4vr6cgb392&amp;artistId=1448&amp;usageTypes=adsupportedstreaming">GET artist/releases</a>​</td>
-        <td
-        style="text-align:left">
-          <p>&artistId={int}</p>
-          <p>&usageTypes=adsupportedstreaming</p>
-          </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">​<a href="http://docs.7digital.com/#_artist_toptracks_get">Artist toptracks</a>​</td>
-      <td
-      style="text-align:left">Returns a list of streamable tracks for a specific artist</td>
-        <td style="text-align:left">​<a href="http://api.7digital.com/1.2/artist/toptracks?shopId=2020&amp;oauth_consumer_key=7d4vr6cgb392&amp;artistId=1448&amp;usageTypes=adsupportedstreaming">GET artist/toptracks</a>​</td>
-        <td
-        style="text-align:left">
-          <p>&artistId={int}</p>
-          <p>&usageTypes=adsupportedstreaming</p>
-          </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">​<a href="http://docs.7digital.com/#_release_search_get">Release search</a>​</td>
+      <td style="text-align:left">​Artist releases​</td>
+      <td style="text-align:left">Returns a list of streamable releases for a specific artist</td>
+      <td style="text-align:left">​<a href="http://api.7digital.com/1.2/artist/releases?shopId=2020&amp;oauth_consumer_key=7d4vr6cgb392&amp;artistId=1448&amp;usageTypes=adsupportedstreaming">GET artist/releases</a>​</td>
       <td
       style="text-align:left">
+        <p>&artistId={int}</p>
+        <p>&usageTypes=adsupportedstreaming</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">​Artist toptracks​</td>
+      <td style="text-align:left">Returns a list of streamable tracks for a specific artist</td>
+      <td style="text-align:left">​<a href="http://api.7digital.com/1.2/artist/toptracks?shopId=2020&amp;oauth_consumer_key=7d4vr6cgb392&amp;artistId=1448&amp;usageTypes=adsupportedstreaming">GET artist/toptracks</a>​</td>
+      <td
+      style="text-align:left">
+        <p>&artistId={int}</p>
+        <p>&usageTypes=adsupportedstreaming</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">​Release search​</td>
+      <td style="text-align:left">
         <p>Search the catalog for releases</p>
         <p>that match a supplied text string</p>
+      </td>
+      <td style="text-align:left">​<a href="http://api.7digital.com/1.2/release/search?shopId=2020&amp;oauth_consumer_key=7d4vr6cgb392&amp;q=john&amp;usageTypes=adsupportedstreaming">GET release/search</a>​</td>
+      <td
+      style="text-align:left">
+        <p>&q={text}</p>
+        <p>&usageTypes=adsupportedstreaming</p>
         </td>
-        <td style="text-align:left">​<a href="http://api.7digital.com/1.2/release/search?shopId=2020&amp;oauth_consumer_key=7d4vr6cgb392&amp;q=john&amp;usageTypes=adsupportedstreaming">GET release/search</a>​</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">​Release tracks​</td>
+      <td style="text-align:left">Returns a list of streamable tracks for a specific release</td>
+      <td style="text-align:left">​<a href="http://api.7digital.com/1.2/release/tracks?shopId=2020&amp;oauth_consumer_key=7d4vr6cgb392&amp;releaseId=5726299&amp;usageTypes=adsupportedstreaming">GET release/tracks</a>​</td>
+      <td
+      style="text-align:left">
+        <p>&releaseId={int}</p>
+        <p>&usageTypes=adsupportedstreaming</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">​Track search​</td>
+      <td style="text-align:left">Search the catalog for releases that match a supplied text string</td>
+      <td
+      style="text-align:left">​<a href="http://api.7digital.com/1.2/track/search?shopId=2020&amp;oauth_consumer_key=7d4vr6cgb392&amp;q=john&amp;usageTypes=adsupportedstreaming">GET track/search</a>​</td>
         <td
         style="text-align:left">
           <p>&q={text}</p>
@@ -130,36 +146,12 @@ The following table contains a link to our online documentation for each endpoin
           </td>
     </tr>
     <tr>
-      <td style="text-align:left">​<a href="http://docs.7digital.com/#_release_tracks_get">Release tracks</a>​</td>
+      <td style="text-align:left">​Track stream​</td>
+      <td style="text-align:left">Stream full length (or partial clip) audio for a specific track</td>
       <td
-      style="text-align:left">Returns a list of streamable tracks for a specific release</td>
-        <td style="text-align:left">​<a href="http://api.7digital.com/1.2/release/tracks?shopId=2020&amp;oauth_consumer_key=7d4vr6cgb392&amp;releaseId=5726299&amp;usageTypes=adsupportedstreaming">GET release/tracks</a>​</td>
-        <td
-        style="text-align:left">
-          <p>&releaseId={int}</p>
-          <p>&usageTypes=adsupportedstreaming</p>
-          </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">​<a href="http://docs.7digital.com/#_track_search_get">Track search</a>​</td>
-      <td
-      style="text-align:left">Search the catalog for releases that match a supplied text string</td>
-        <td
-        style="text-align:left">​<a href="http://api.7digital.com/1.2/track/search?shopId=2020&amp;oauth_consumer_key=7d4vr6cgb392&amp;q=john&amp;usageTypes=adsupportedstreaming">GET track/search</a>​</td>
-          <td
-          style="text-align:left">
-            <p>&q={text}</p>
-            <p>&usageTypes=adsupportedstreaming</p>
-            </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">​<a href="http://docs.7digital.com/#_stream_catalogue_get">Track stream</a>​</td>
-      <td
-      style="text-align:left">Stream full length (or partial clip) audio for a specific track</td>
-        <td
-        style="text-align:left"><b>See later page</b>
-          </td>
-          <td style="text-align:left">&trackId={int}</td>
+      style="text-align:left"><b>See later page</b>
+        </td>
+        <td style="text-align:left">&trackId={int}</td>
     </tr>
   </tbody>
 </table>
