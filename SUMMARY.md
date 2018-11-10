@@ -2,10 +2,6 @@
 
 * [Milwaukee Startup Week Hackathon Guide](README.md)
 
-## Blueprints
-
-* [Discover Music](blueprints/discover-music.md)
-
 ## Thought Starters
 
 * [Immersive Wayne Shorter Catalog](thought-starters/immersive-wayne-shorter-catalog.md)
